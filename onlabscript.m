@@ -1,3 +1,4 @@
+clc;
 clear;
 %% Parameters
 La=3; %H, inductance of the armature winding
