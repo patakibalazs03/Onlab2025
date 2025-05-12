@@ -19,3 +19,7 @@ Ra=1; %Ohm, resistance of the armature winding
 K_b=0.0301; %V/rad/s the back emf constant 
 
 K_t=0.0300; %Nm/Amp the torque constant
+
+%% Other simulation parameters
+
+tau_max = 0.0854;
