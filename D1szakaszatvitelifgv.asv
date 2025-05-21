@@ -1,0 +1,7 @@
+%% Szakasz átviteli függvénye
+Wp = tf(R*K_t,[C*La Ra*C+b*La Ra*b-K_b*K_t 0]);
+
+A1 =[-]
+B1 =[-1/L 0]
+C1 = [0 1];
+D1 = 0;
