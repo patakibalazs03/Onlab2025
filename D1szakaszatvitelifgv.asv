@@ -5,7 +5,7 @@ Den = Wp.Denominator;
 
 %% Egység erősítés Ap meghatározásához
 % Td+Tc = 121.8
-Tder = 121.8; %A kiejteni kívánt pólus
+Tder = 800; %A kiejteni kívánt pólus
 Ar = 10; % Td/Tc = 10
 Tc = Tder/(1+Ar);
 Td = Tder-Tc;
@@ -13,7 +13,7 @@ W01 = series(Wp,tf([Tder 1],[Tc 1]));
 bode(W01);
 
 %% Ap = 1.0839e-3
-Ap = 9.1;
+Ap = 8.317;
 Wpd = tf(Ap*[Tc+Td 1],[Tc 1]);
 W02 = series(Wp,Wpd);
 bode(W02);
