@@ -13,4 +13,4 @@ R = 0.05; %radius of wheel in meter
 L = 0.15; %distance between wheel in meter
 b = 5e-4; %Damping coefficient per wheel Nm*s/rad
 
-C = M*R^2+J; %constant for the wheel
+C = (M*R^2+J)/2; %constant for the wheel
